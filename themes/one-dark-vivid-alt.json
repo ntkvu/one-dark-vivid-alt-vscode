@@ -351,10 +351,11 @@
       }
     },
     {
-      "name": "js/ts console",
-      "scope": "support.type.object.console",
+      "name": "js/ts console / support",
+      "scope": "support.type.object.console, support.type.object.process",
       "settings": {
-        "foreground": "#EF596F"
+        // "foreground": "#EF596F"
+        "foreground": "#2BBAC5"
       }
     },
     {
