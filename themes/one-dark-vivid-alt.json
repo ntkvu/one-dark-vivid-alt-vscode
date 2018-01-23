@@ -516,7 +516,14 @@
     },
     {
       "name": "Operators",
-      "scope": "keyword.operator",
+      "scope": "keyword.operator, punctuation.accessor.ts",
+      "settings": {
+        "foreground": "#2BBAC5"
+      }
+    },
+    {
+      "name": "Operators normal",
+      "scope": "keyword.operator.type.annotation",
       "settings": {
         "foreground": "#AAB1C0"
       }
